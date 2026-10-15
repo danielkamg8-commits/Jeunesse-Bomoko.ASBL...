@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeunesse Bomoko ASBL | Site officiel</title>
+<meta name="description" content="Site officiel de Jeunesse Bomoko ASBL : activités, événements et adhésion.">
+<style>
+:root{--vert:#087443;--fonce:#064d2d;--clair:#eaf7ef;--gris:#f3f6f4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;color:#252525;background:var(--gris);line-height:1.6}
+header,footer{background:var(--fonce);color:white;text-align:center;padding:24px 15px}
+.logo{width:100px;height:100px;object-fit:contain;border-radius:50%;background:white;padding:4px}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:5px;padding:10px;background:var(--fonce);position:sticky;top:0;z-index:5}
+nav a{color:white;text-decoration:none;padding:9px 12px;font-weight:bold;border-radius:6px}
+nav a:hover{background:#087443}
+.hero{text-align:center;color:white;padding:48px 18px;background:linear-gradient(135deg,#064d2d,#10a565)}
+.hero h2{font-size:30px;margin-bottom:10px}
+section{max-width:1050px;margin:22px auto;padding:25px 20px;background:white;border-radius:13px;box-shadow:0 3px 12px #0000000d}
+h2{color:var(--white);text-align:center;margin-bottom:16px}
+.intro{text-align:center;max-width:750px;margin:auto}
+.cards,.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:15px;margin-top:20px}
+.card{background:var(--clair);border-left:4px solid var(--vert);padding:18px;border-radius:9px;text-align:center}
+.card h3{color:var(--vert)}
+.card img,.card video{max-width:100%;height:auto}
+label{display:block;font-weight:bold;margin-top:12px}
+input,select,textarea{display:block;width:100%;padding:11px;margin-top:5px;border:1px solid #ccc;border-radius:7px;font-size:16px;font-family:Arial;background:white}
+textarea{min-height:90px}
+.note{font-size:13px;color:#555;margin-top:10px}
+.btn{display:inline-block;padding:12px 18px;margin:10px 4px 0;border:0;border-radius:8px;font-size:15px;font-weight:bold;text-decoration:none;cursor:pointer}
+.green{background:var(--vert);color:white}
+.white{background:white;color:var(--vert)}
+.wa{background:#25d366;color:white}
+.contact{text-align:center;background:var(--clair)}
+.whatsapp{display:inline-block;background:#25d366;color:white;padding:13px 20px;border-radius:25px;text-decoration:none;font-weight:bold;margin:12px}
+.qr{width:200px;height:200px;max-width:100%;display:block;margin:15px auto}
+@media(max-width:600px){header h1{font-size:23px}.hero h2{font-size:25px}section{margin:14px 8px;padding:20px 13px}}
+</style>
+</head>
+<body>
+<header>
+<img src="z.png" alt="Logo Jeunesse Bomoko ASBL" class="logo">
+<h1>JEUNESSE BOMOKO ASBL</h1>
+<p>Unis • Engagés • Avenir</p>
+</header>
+
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#apropos">À propos</a>
+<a href="#activites">Activités</a>
+<a href="#evenements">Galerie</a>
+<a href="#adhesion">Adhésion</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<main>
+<div class="hero" id="accueil">
+<h2>Bienvenue chez Jeunesse Bomoko</h2>
+<p>Ensemble, construisons une jeunesse unie, responsable et engagée dans le développement de notre communauté.</p>
+<a href="#adhesion" class="btn white">Devenir membre</a>
+<a href="https://wa.me/qr/LF4COS3ECRICN1" target="_blank" rel="noopener" class="btn white">Nous contacter</a>
+</div>
+
+<section id="apropos">
+<h2>À propos de nous</h2>
+<p class="intro">Jeunesse Bomoko ASBL encourage l'unité, la solidarité, la participation citoyenne et l'engagement des jeunes dans la communauté.</p>
+<div class="cards">
+<div class="card"><h3>🤝 Unité</h3><p>Rassembler les jeunes autour d'objectifs communs.</p></div>
+<div class="card"><h3>💚 Solidarité</h3><p>Promouvoir l'entraide et le soutien communautaire.</p></div>
+<div class="card"><h3>🌍 Engagement</h3><p>Encourager le développement local.</p></div>
+</div>
+</section>
+
+<section id="activites">
+<h2>Nos activités</h2>
+<div class="cards">
+<div class="card"><h3>📢 Sensibilisation</h3><p>Informer et mobiliser les jeunes.</p></div>
+<div class="card"><h3>👥 Rencontres</h3><p>Organiser des réunions et échanges.</p></div>
+<div class="card"><h3>❤️ Actions solidaires</h3><p>Développer des initiatives d'entraide.</p></div>
+</div>
+</section>
+
+<section id="evenements">
+<h2>📸 Nos événements</h2>
+<p class="intro">Retrouvez les photos et vidéos de nos activités, réunions et événements.</p>
+<div class="cards">
+<div class="card"><img src=".jpg" alt="Réunion de Jeunesse Bomoko"><h3>Réunion</h3><p>Activités de Jeunesse Bomoko ASBL.</p></div>
+<div class="card"><img src=".jpg" alt="Réunion de Jeunesse Bomoko"><h3>Réunion</h3><p>Activités de Jeunesse Bomoko ASBL.</p></div>
+<div class="card"><img src=".jpg" alt="Réunion de Jeunesse Bomoko"><h3>Réunion</h3><p>Activités de Jeunesse Bomoko ASBL.</p></div>
+<div class="card"><img src="IMG-20261013-WA0008.jpg" alt="Réunion de Jeunesse Bomoko"><h3>Réunion</h3><p>Activités de Jeunesse Bomoko ASBL.</p></div>
+<div class="card"><img src="IMG-20261013-WA0025.jpg" alt="Réunion de Jeunesse Bomoko"><h3>membre</h3><p>informaticien de Jeunesse Bomoko ASBL.</p></div>
+<div class="card"><img src="photos/activite.jpg" alt="Activité communautaire"><h3>Activité communautaire</h3><p>Ensemble pour notre communauté.</p></div>
+<div class="card"><video controls playsinline preload="metadata"><source src="VID-20261011-WA0065.mp4" type="video/mp4">Votre navigateur ne prend pas en charge cette vidéo.</video><h3>Notre événement</h3><p>Vidéo réunion de Jeunesse Bomoko.</p></div>
+<div class="card"><video controls playsinline preload="metadata"><source src="fde74edaf0f34465ab8568d3a7c6fe81.mp4" type="video/mp4">Votre navigateur ne prend pas en charge cette vidéo.</video><h3>Notre événement</h3><p>Vidéo de la presentation de Jeunesse Bomoko.</p></div>
+<div class="card"><video controls playsinline preload="metadata"><source src="VID-20261011-WA0065.mp4" type="video/mp4">Votre navigateur ne prend pas en charge cette vidéo.</video><h3>Notre événement</h3><p>Vidéo réunion de Jeunesse Bomoko.</p></div>
+<div class="card"><video controls playsinline preload="metadata"><source src="VID-20261011-WA0065.mp4" type="video/mp4">Votre navigateur ne prend pas en charge cette vidéo.</video><h3>Notre événement</h3><p>Vidéo réunion de Jeunesse Bomoko.</p></div>
+<div class="card"><video controls playsinline preload="metadata"><source src="VID-20261011-WA0065.mp4" type="video/mp4">Votre navigateur ne prend pas en charge cette vidéo.</video><h3>Notre événement</h3><p>Vidéo réunion de Jeunesse Bomoko.</p></div>
+</div>
+<p class="note">Pour publier de nouveaux événements depuis un espace administrateur, il faut ajouter un serveur ou un service de stockage.</p>
+</section>
+
+<section id="adhesion">
+<h2>Adhésion à Jeunesse Bomoko ASBL</h2>
+<p class="intro">Remplissez les informations ci-dessous. Elles seront regroupées dans un message WhatsApp destiné à l'administration.</p>
+<form id="formAdhesion">
+<label for="matricule">N° de matricule (facultatif)</label>
+<input id="matricule" name="Matricule" placeholder="Attribué par l'administration">
+
+<label for="nom">Nom *</label>
+<input id="nom" name="Nom" required autocomplete="family-name" placeholder="Votre nom">
+
+<label for="postnom">Postnom *</label>
+<input id="postnom" name="Postnom" required placeholder="Votre postnom">
+
+<label for="prenom">Prénom *</label>
+<input id="prenom" name="Prénom" required autocomplete="given-name" placeholder="Votre prénom">
+
+<label for="naissance">Date de naissance *</label>
+<input id="naissance" name="Date de naissance" type="date" required>
+
+<label for="lieuNaissance">Lieu de naissance *</label>
+<input id="lieuNaissance" name="Lieu de naissance" required placeholder="Ville ou territoire">
+
+<label for="sexe">Sexe *</label>
+<select id="sexe" name="Sexe" required>
+<option value="">Choisir</option><option>Masculin</option><option>Féminin</option>
+</select>
+
+<label for="telephone">Téléphone / WhatsApp *</label>
+<input id="telephone" name="Téléphone / WhatsApp" type="tel" required autocomplete="tel" placeholder="+243...">
+
+<label for="adresse">Adresse / Quartier *</label>
+<input id="adresse" name="Adresse / Quartier" required placeholder="Votre adresse ou quartier">
+
+<label for="email">E-mail</label>
+<input id="email" name="E-mail" type="email" autocomplete="email" placeholder="exemple@email.com">
+
+<label for="niveauEtude">Niveau d'études *</label>
+<select id="niveauEtude" name="Niveau d'études" required>
+<option value="">Choisir</option>
+<option>Sans niveau scolaire</option><option>Primaire en cours</option><option>Certificat primaire</option>
+<option>Secondaire en cours</option><option>Diplôme d'État</option><option>Formation professionnelle</option>
+<option>Graduat / Bac +3</option><option>Licence / Bac +5</option><option>Master</option><option>Doctorat</option><option>Autre</option>
+</select>
+
+<label for="profession">Profession / Activité</label>
+<input id="profession" name="Profession / Activité" placeholder="Votre profession ou activité">
+
+<label for="competence">Domaine de compétence</label>
+<input id="competence" name="Domaine de compétence" placeholder="Ex. informatique, santé, construction">
+
+<label for="motivation">Motivation *</label>
+<textarea id="motivation" name="Motivation" required placeholder="Pourquoi souhaitez-vous adhérer ?"></textarea>
+
+<label for="lieuSignature">Fait à *</label>
+<input id="lieuSignature" name="Fait à" required placeholder="Ville">
+
+<label for="dateAdhesion">Date d'adhésion *</label>
+<input id="dateAdhesion" name="Date d'adhésion" type="date" required>
+
+<label for="categorie">Catégorie de membre *</label>
+<select id="categorie" name="Catégorie de membre" required>
+<option value="">Choisir</option><option>Membre Actif</option><option>Membre Sympathisant</option><option>Autre</option>
+</select>
+
+<button type="submit" class="btn wa">📲 Envoyer mon inscription sur WhatsApp</button>
+<p id="statutEnvoi" class="note" aria-live="polite"></p>
+</form>
+<p class="note">WhatsApp s'ouvrira avec un message prérempli. Appuyez sur Envoyer dans WhatsApp pour transmettre l'inscription.</p>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contactez-nous</h2>
+<p>Pour toute information, contactez Daniel.</p>
+<p><strong>WhatsApp : +243 978 644 833</strong></p>
+<a href="https://wa.me/qr/LF4COS3ECRICN1" target="_blank" rel="noopener" class="whatsapp">💬 Discuter sur WhatsApp</a>
+<p>Ou scannez le QR code WhatsApp :</p>
+<img class="qr" src="https://quickchart.io/qr?text=https%3A%2F%2Fwa.me%2Fqr%2FLF4COS3ECRICN1&size=250" alt="QR code WhatsApp" loading="lazy">
+</section>
+
+<section id="administration">
+<h2>🔐 Espace administrateur</h2>
+<div class="card"><strong>Zone de gestion à configurer.</strong><p>La connexion sécurisée et la publication d'événements nécessitent un serveur ou un service d'authentification.</p></div>
+<p class="note">Cette section n'est pas une connexion sécurisée. Ne placez jamais un mot de passe administrateur dans le code HTML public.</p>
+</section>
+</main>
+
+<footer>
+<h3>JEUNESSE BOMOKO ASBL</h3>
+<p>Unis • Engagés • Avenir</p>
+<p>WhatsApp : +243 978 644 833</p>
+<p>&copy; <span id="annee"></span> Jeunesse Bomoko ASBL</p>
+</footer>
+
+<script>
+"use strict";
+
+document.getElementById("annee").textContent = new Date().getFullYear();
+
+const formulaire = document.getElementById("formAdhesion");
+const statutEnvoi = document.getElementById("statutEnvoi");
+const numeroWhatsApp = "243978644833";
+
+formulaire.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    if (!formulaire.checkValidity()) {
+        formulaire.reportValidity();
+        return;
+    }
+
+    const lire = id => {
+        const champ = document.getElementById(id);
+        return champ ? champ.value.trim() : "";
+    };
+
+    const lignes = [
+        "📋 NOUVELLE DEMANDE D'ADHÉSION",
+        "JEUNESSE BOMOKO ASBL",
+        "",
+        "IDENTITÉ DU CANDIDAT",
+        "Matricule : " + (lire("matricule") || "À attribuer par l'administration"),
+        "Nom : " + lire("nom"),
+        "Postnom : " + lire("postnom"),
+        "Prénom : " + lire("prenom"),
+        "Date de naissance : " + lire("naissance"),
+        "Lieu de naissance : " + lire("lieuNaissance"),
+        "Sexe : " + lire("sexe"),
+        "",
+        "COORDONNÉES",
+        "Téléphone / WhatsApp : " + lire("telephone"),
+        "Adresse / Quartier : " + lire("adresse"),
+        "E-mail : " + (lire("email") || "Non renseigné"),
+        "",
+        "PROFIL",
+        "Niveau d'études : " + lire("niveauEtude"),
+        "Profession / Activité : " + (lire("profession") || "Non renseignée"),
+        "Domaine de compétence : " + (lire("competence") || "Non renseigné"),
+        "",
+        "MOTIVATION",
+        lire("motivation"),
+        "",
+        "INFORMATIONS D'ADHÉSION",
+        "Fait à : " + lire("lieuSignature"),
+        "Date d'adhésion : " + lire("dateAdhesion"),
+        "Catégorie de membre : " + lire("categorie"),
+        "",
+        "Envoyé depuis le site officiel de Jeunesse Bomoko ASBL."
+    ];
+
+    const message = lignes.join("\n");
+    const lien = "https://wa.me/" + numeroWhatsApp +
+                 "?text=" + encodeURIComponent(message);
+
+    statutEnvoi.textContent = "Ouverture de WhatsApp…";
+
+    // Ouvrir dans un nouvel onglet pour réduire les blocages de navigation mobile.
+    const fenetre = window.open(lien, "_blank");
+
+    if (!fenetre) {
+        // Si le navigateur bloque le nouvel onglet, naviguer dans l'onglet actuel.
+        window.location.href = lien;
+    }
+});
+</script>
+</body>
+</html>
